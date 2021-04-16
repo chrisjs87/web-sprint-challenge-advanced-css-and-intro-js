@@ -138,11 +138,6 @@ button:hover{
 /* Breakpoints */
 /* Mobile */
 @media(max-width:500px){
-
-    /* *{
-        max-width:100%;
-    } */
-    
     nav{
         padding:0;
         align-items:baseline;
@@ -155,6 +150,5 @@ button:hover{
         font-size: 1.8rem;
         margin: 0 5%;
         padding:0;
-    }
-    
+    }  
 }
