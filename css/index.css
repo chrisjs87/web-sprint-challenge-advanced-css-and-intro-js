@@ -134,3 +134,27 @@ button:hover{
 .artist img{
     width:100%;
 }
+
+/* Breakpoints */
+/* Mobile */
+@media(max-width:500px){
+
+    /* *{
+        max-width:100%;
+    } */
+    
+    nav{
+        padding:0;
+        align-items:baseline;
+    }
+    nav span{
+        border-left:2px solid #626262;
+        height:50%;
+    }
+    nav a{
+        font-size: 1.8rem;
+        margin: 0 5%;
+        padding:0;
+    }
+    
+}
