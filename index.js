@@ -302,12 +302,15 @@ Use lotsOfArt to do the following:
 
 For example lotsOfArt(artists); will return ["Amedeo Modigliani", "Rene Magritte", ... "Albrecht Dürer"]*/
 
-function lotsOfArt(/*Your Code Here*/){
-  /*Your Code Here*/
+function lotsOfArt(array){
+  let myArray = [];
+  for(let i = 0; i < array.length; i++){
+    if(array[i].paintings > 100){
+      myArray.push(array[i].name);
+    }
+  }
+  return myArray;
 }
-
-
-
 
 // 🎨🎨 STRETCH 🎨🎨//
 /* 💪💪💪💪💪💪 STRETCH 1: 💪💪💪💪💪💪 
