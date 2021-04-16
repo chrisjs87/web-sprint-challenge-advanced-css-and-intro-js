@@ -23,9 +23,22 @@ Commit your code regularly and meaningfully.
 Please answer the following questions below, you may edit the readme file to include your answers below the question.
 
 1. How would you describe accessibility on the web to someone new to programming?
+
+Accessibility allows for people who live with all sorts of experiences to be able to access websites and utilize technology at no unreasonable disadvantage. This would entail making content easier to read; this would also entail making the structure of webpages more accessible to screen readers that aid people with visual impairments. Accessibility comes in many different forms, and it is important for developers to take into account the needs of others who may want to make use of the things that we have created. Furthermore, accessibility is a concept wherein if one person benefits, the changes of everyone else benefiting are extremely likely.
+
 2. Talk about 3 different things you can do to ensure your website is accessible. 
+
+1 - Websites can be made more accessible with the use of media queries in order to make different breakpoint screen sizes legible and have a professionally functional layout. This entails allowing users from all sorts of different devices to access your website.
+2 - You can use scalable units of measurement such that at different breakpoints, your content will continue to be legible and professionally functional.
+3 - When setting up your HTML, using semantic tags and giving images an alt description make screen readers more effective at delivering your content to users with visual impairments.
+
 3. How would you explain the concept of a variable to someone new to programming?
+
+Variables are used to store information that you will want to use at a later time. This data can be in the form of strings, numbers, and booleans, as well as more complex types of data storage/usage like Arrays and Objects.
+
 4. What is the purpose of using functions in code?
+
+The most important feature of a function is the ability to re-use code/processes over and over again, making your code DRYer (Don't Repeat Yourself). 
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
